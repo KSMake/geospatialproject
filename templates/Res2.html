@@ -1,0 +1,49 @@
+{% extends 'partials/base.html' %}
+
+
+{% block main %}
+
+<div class="d-inline-flex p-4 bd-highlight bg-dark">
+    <div class="col-2">
+
+
+        {% include '_sidebar.html' %}
+
+    </div>
+
+    <div class="bg-dark col-sm-10 text-white">
+
+        <h5>Многолетние данные по водохранилищам:</h5>
+
+
+        <br>
+
+
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Приток в Ортокойское водохранилище</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Попуск из Ототокойского водохранилища</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Приток в Тасоткелское водохранилище</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Попуск из Тасоткелское Водохранилища</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Приток в Терис-Ащыбулакское
+            Водохранилище</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Попуск из Терис-Ащыбулакского
+            Водохранилища</a>
+
+
+    <br>
+    <br>
+
+<h5>Данные по межгосударственным водохозяйственным каналам:</h5>
+
+
+        <a href="{% url 'Barrace Dostyk' %}" class="btn btn-outline-success text-light" type="button">Канал "????"</a>
+        <a href="#" class="btn btn-outline-success text-light" type="button">"????"</a>
+        <a href="#" class="btn btn-outline-success text-light" type="button">Канал "????"</a>
+        <a href="#" class="btn btn-outline-success text-light" type="button">Канал "????"</a>
+        <a href="#" class="btn btn-outline-success text-light" type="button">"????"</a>
+        <a href="#" class="btn btn-outline-success text-light" type="button">Канал "????"</a>
+
+
+</div>
+
+
+{% endblock main %}

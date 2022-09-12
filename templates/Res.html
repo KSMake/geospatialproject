@@ -1,0 +1,62 @@
+{% extends 'partials/base.html' %}
+
+
+{% block main %}
+
+<div class="d-inline-flex p-4 bd-highlight bg-dark">
+    <div class="col-2">
+
+
+        {% include '_sidebar.html' %}
+
+    </div>
+
+    <div class="bg-dark col-sm-10 text-white">
+
+ <h5>Многолетние данные по водохранилищам:</h5>
+
+
+        <br>
+
+        <a href="{% url '1' %}" class="btn btn-outline-success text-light" type="button">Приток в Токтогульское водохранилище</a>
+        <a href="{% url '2' %}" class="btn btn-outline-success text-light" type="button">Попуск из Токтогульское водохранилище</a>
+        <a href="{% url '3' %}" class="btn btn-outline-success text-light" type="button">Приток в Водохранилища Бахри Точик</a>
+        <a href="{% url '4' %}" class="btn btn-outline-success text-light" type="button">Попуск из Водохранилища Бахри Точик</a>
+        <a href="{% url '5' %}" class="btn btn-outline-success text-light" type="button">Приток в Андижанское водохранилище</a>
+        <a href="{% url '6' %}" class="btn btn-outline-success text-light" type="button">Попуск из Андижанского водохранилища</a>
+        <a href="{% url '7' %}" class="btn btn-outline-success text-light" type="button">Приток в Чарвакское водохранилище</a>
+        <a href="{% url '8' %}" class="btn btn-outline-success text-light" type="button">Попуск из Чарвакского водохранилища</a>
+        <a href="{% url '9' %}" class="btn btn-outline-success text-light" type="button">Приток в Шардаринское водохранилище</a>
+        <a href="{% url '10' %}" class="btn btn-outline-success text-light" type="button">Попуск из Шардаринского водохранилища</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Приток в Бадамское водохранилище</a>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Попуск из Бадамское водохранилища</a><br>
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Приток в Богенское водохранилище</a>
+
+        <a href="{#}" class="btn btn-outline-success text-light" type="button">Попуск из Богенского водохранилища</a>
+
+
+          <br>
+          <br>
+ <h5>Данные по межгосударственным водохозяйственным каналам:</h5>
+
+
+        <br>
+
+
+
+    <a href="{% url 'Barrace Dostyk' %}" class="btn btn-outline-success text-light" type="button">Канал "Достык"</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Большой Келесский Канал</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал "Зах"</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал "Ханым"</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">"Северный Ташкентский канал"</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал В-12</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал В-15</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал В-24</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал В-25</a>
+    <a href="#" class="btn btn-outline-success text-light" type="button">Канал Р-1</a>
+
+    </div>
+
+
+
+{% endblock main %}
